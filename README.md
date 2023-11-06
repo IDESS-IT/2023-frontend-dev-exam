@@ -1,5 +1,5 @@
 ## Front-end Dev Exam
-Company : **IDESS Interactive Technologies Inc.**
+Company: **IDESS Interactive Technologies Inc.**
 
 Requirements:
 
@@ -17,6 +17,10 @@ Requirements:
 
 ## Figma UI
 The Figma UI that will be used as criteria is at this [Figma Prototype Link](https://www.figma.com/proto/OYtfxAZXBGLnlddkU1Yfow/Succession-Planner-for-Review?page-id=0%3A1&type=design&node-id=129-43110&viewport=138%2C100%2C0.48&t=wnRBvrqzljzWzr06-1&scaling=min-zoom).
+
+## Instructions
+
+- After Cloning the repository, create a branch with this name format `[lastname-firstname-FE-TEST]`
 
 ## Documentation
 
