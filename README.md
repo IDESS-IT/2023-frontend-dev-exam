@@ -17,7 +17,7 @@ Requirements:
 
 ## Figma 
 The Figma UI that will be used as criteria is in this [Figma Design](https://www.figma.com/file/OYtfxAZXBGLnlddkU1Yfow/Succession-Planner-for-Review?type=design&node-id=129%3A43110&mode=design&t=660fHEWF6xMwGni6-1).
-To check how it works, you may chec this [Figma Prototype](https://www.figma.com/proto/OYtfxAZXBGLnlddkU1Yfow/Succession-Planner-for-Review?page-id=0%3A1&type=design&node-id=129-43110&viewport=138%2C100%2C0.48&t=wnRBvrqzljzWzr06-1&scaling=min-zoom)
+To check how it works, you may check this [Figma Prototype](https://www.figma.com/proto/OYtfxAZXBGLnlddkU1Yfow/Succession-Planner-for-Review?page-id=0%3A1&type=design&node-id=129-43110&viewport=138%2C100%2C0.48&t=wnRBvrqzljzWzr06-1&scaling=min-zoom)
 
 ## Instructions
 
