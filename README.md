@@ -15,12 +15,17 @@ Requirements:
 |To run React environment| **npm start** |
 |This command will install `node_modules` and also will start your project.| **npm run install:clean** |
 
-## Figma UI
-The Figma UI that will be used as criteria is at this [Figma Prototype Link](https://www.figma.com/proto/OYtfxAZXBGLnlddkU1Yfow/Succession-Planner-for-Review?page-id=0%3A1&type=design&node-id=129-43110&viewport=138%2C100%2C0.48&t=wnRBvrqzljzWzr06-1&scaling=min-zoom).
+## Figma 
+The Figma UI that will be used as criteria is in this [Figma Design](https://www.figma.com/file/OYtfxAZXBGLnlddkU1Yfow/Succession-Planner-for-Review?type=design&node-id=129%3A43110&mode=design&t=660fHEWF6xMwGni6-1).
+To check how it works, you may chec this [Figma Prototype](https://www.figma.com/proto/OYtfxAZXBGLnlddkU1Yfow/Succession-Planner-for-Review?page-id=0%3A1&type=design&node-id=129-43110&viewport=138%2C100%2C0.48&t=wnRBvrqzljzWzr06-1&scaling=min-zoom)
 
 ## Instructions
 
-- After Cloning the repository, create a branch with this name format `[lastname-firstname-FE-TEST]`
+1. Clone the repository.
+2. Create a branch using the following name format: `[lastname-firstname-FE-TEST]`.
+3. Implement the designated page based on the Figma design.
+4. Utilize reusable components to enhance efficiency.
+5. Ensure the page's responsiveness, allowing seamless access on various devices, including mobile and tablet views.
 
 ## Documentation
 
