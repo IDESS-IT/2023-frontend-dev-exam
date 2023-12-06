@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #f5f6fb;
+}
+
+.Sidebar {
+    margin-left: -25px;
+    height: 100vh;
+    width: 300px;
+    background-color: #ffffff;
+}
+
+
+.Sidebar .SideBar-MenuItems {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: #174278;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    margin-right: 15px;
+}
+
+
+
+.SideBar-MenuItems #icon{
+    flex: 10%;
+}
+
+.SideBar-MenuItems #title{
+    flex: 70%;
+}
+
+.Sidebar .SideBar-MenuItems:hover {
+    background-color: #174278;
+    color: #ffffff;
+    cursor: pointer;
+}

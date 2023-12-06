@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -10,25 +12,54 @@
   .user-info {
     display: flex;
     align-items: center;
+    font-family: Poppins;
   }
   
   .user-image {
-    width: 30px; /* Adjust the size of the user image as needed */
-    height: 30px;
+    width: 40px; 
+    height: 40px;
     border-radius: 50%;
     margin-right: 10px;
   }
   
   .search-box {
     flex: 1;
-    margin-left: 70%; /* Adjust the spacing between user info and search box as needed */
-    margin-right: 5%;
+    margin-left: 65%; 
+    margin-right: 10%;
+    position: relative;
   }
+
   
+  .search-icon {
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888; 
+
+  }
+
+  .search-box input {
+    padding-left: 40px; 
+    font-family: Poppins;
+    font-size: 0.8rem;
+  }
+
   input {
     width: 100%;
     padding: 0.5rem;
     border: none;
     border-radius: 5px;
     font-size: 14px;
+  }
+
+  .user-desc .user-name{
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  .user-desc .user-title{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.7rem;
   }
