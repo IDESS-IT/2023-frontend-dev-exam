@@ -1,0 +1,17 @@
+.footer {
+    background-color: #f2f3f8;
+    color: darkgray;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: 22%;
+    font-family: Poppins;
+    font-size: 0.8rem;
+  }
+
+  .footer a{
+    text-decoration: none;
+    color: darkblue;
+  }

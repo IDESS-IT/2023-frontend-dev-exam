@@ -11,6 +11,7 @@
     position: fixed;
     width: 100%;
     margin-top: -1.5%;
+    padding-bottom: 5rem;
   }
   
   .user-info {
@@ -94,6 +95,6 @@
   .desc .desc2{
     display: flex;
     flex-wrap: wrap;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 

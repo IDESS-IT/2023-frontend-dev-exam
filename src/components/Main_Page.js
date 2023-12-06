@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from 'react-dom';
 import Header from "./Headers/Header";
 import SideBar from "./Sidebar/SideBar";
+import Footer from "./Footers/Footer";
 
 
 
@@ -10,6 +11,7 @@ class App extends React.Component {
       return ( <div>
         <Header />
         <SideBar />
+        <Footer />
       </div>
       );
     }
