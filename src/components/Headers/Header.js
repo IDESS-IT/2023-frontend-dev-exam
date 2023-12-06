@@ -13,7 +13,6 @@ const Header = () => {
       <SearchIcon className="search-icon" />
         <input type="text" placeholder="Search here..." />
       </div>
-
       <div className="user-info">
         <img className="user-image" src={userImage} alt="User" />
         <div className="user-desc">

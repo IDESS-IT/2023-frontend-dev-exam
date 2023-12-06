@@ -9,6 +9,8 @@ body {
     height: 100vh;
     width: 300px;
     background-color: #ffffff;
+    z-index: 2;
+    position: fixed;
 }
 
 
@@ -40,4 +42,24 @@ body {
     background-color: #174278;
     color: #ffffff;
     cursor: pointer;
+}
+
+.cms-logo {
+    font-family: 'Franklin Gothic Medium';
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #0b0b0b;
+}
+
+.cms-logo img{
+    height: 55px;
+    width: 25%; 
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.cms-logo h1{
+    margin-top: 45px;
+    margin-left: 5px;
 }

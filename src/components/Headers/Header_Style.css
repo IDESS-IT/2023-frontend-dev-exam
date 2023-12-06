@@ -7,12 +7,16 @@
     padding: 3rem;
     background-color: #174278;
     color: white;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
   }
   
   .user-info {
     display: flex;
     align-items: center;
     font-family: Poppins;
+    width: 100%;
   }
   
   .user-image {
@@ -23,10 +27,12 @@
   }
   
   .search-box {
-    flex: 1;
+    width: 100px;
     margin-left: 65%; 
     margin-right: 10%;
     position: relative;
+    display: flex;
+    align-items: right;
   }
 
   
@@ -51,6 +57,7 @@
     border: none;
     border-radius: 5px;
     font-size: 14px;
+    margin-left: 10px;
   }
 
   .user-desc .user-name{
