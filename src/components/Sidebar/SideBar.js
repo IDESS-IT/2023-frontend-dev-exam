@@ -11,6 +11,7 @@ function SideBar() {
                 <img src="https://www.scientificindustries.com/media/wysiwyg/icon_employment_opportunities.png" alt="CMS"></img>
                 <h1>CMS</h1>
             </div>
+
         <ul>
         {SideBar_Menu.map((val, key) => {
         return (
@@ -18,6 +19,7 @@ function SideBar() {
 
         <div id="icon">{val.icon}</div>
         <div id="title">{val.title}</div>
+        <div id="icon2">{val.icon2}</div>
         </li>
         );
         })}

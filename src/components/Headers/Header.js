@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header_Style.css';
 import SearchIcon from '@mui/icons-material/Search';
+import logo1 from './modec.png';
+
 
 
 const Header = () => {
@@ -8,7 +10,11 @@ const Header = () => {
 
   return (
     <header className="header">
-      
+      <img id="modec-logo" src={logo1} alt="..."/>
+      <div className="desc">
+          <span className="desc1">People Management</span>
+          <span className="desc2">Management of people information</span>
+      </div>
       <div className="search-box">
       <SearchIcon className="search-icon" />
         <input type="text" placeholder="Search here..." />
@@ -19,6 +25,7 @@ const Header = () => {
         <span className="user-name">Lester Samonte</span>
         <span className="user-title">Campus Boss</span>
         </div>
+
         
       </div>    
     </header>

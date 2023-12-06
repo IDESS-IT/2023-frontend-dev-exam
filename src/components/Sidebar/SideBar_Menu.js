@@ -6,41 +6,49 @@ import PeopleIcon from '@mui/icons-material/People';
 import ContentPasteIcon from '@mui/icons-material/ContentPaste';
 import AssessmentIcon from '@mui/icons-material/Assessment';
 import SettingsIcon from '@mui/icons-material/Settings';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 
 export const SideBar_Menu = [
     {
         title: "Dashboard",
-        icon:  <HomeIcon />
+        icon:  <HomeIcon />,
+        icon2: <KeyboardArrowDownIcon />
     },
 
     {
         title: "Knowledge Assessment",
-        icon:  <QuizIcon />
+        icon:  <QuizIcon />,
+        icon2: <KeyboardArrowDownIcon />
     },
 
     {
         title: "Succession Planner",
-        icon:  <HandshakeIcon />
+        icon:  <HandshakeIcon />,
+        icon2: <KeyboardArrowDownIcon />
     },
 
     {
         title: "People Management",
-        icon:  <PeopleIcon />
+        icon:  <PeopleIcon />,
+        icon2: <KeyboardArrowDownIcon />
     },
 
     {
         title: "Training Management",
-        icon:  <ContentPasteIcon />
+        icon:  <ContentPasteIcon />,
+        icon2: <KeyboardArrowDownIcon />
     },
 
     {
         title: "Competency Management",
-        icon:  <AssessmentIcon />
+        icon:  <AssessmentIcon />,
+        icon2: <KeyboardArrowDownIcon />
     },
 
     {
         title: "System Administration",
-        icon:  <SettingsIcon />
+        icon:  <SettingsIcon />,
+        icon2: <KeyboardArrowDownIcon />
     },
 ]
